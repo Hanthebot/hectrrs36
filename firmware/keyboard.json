@@ -1,0 +1,394 @@
+{
+    "keyboard_name": "Hectrrs36",
+    "manufacturer": "Hanthebot",
+    "url": "https://github.com/Hanthebot/hectrrs36",
+    "maintainer": "Hanthebot",
+    "usb": {
+        "vid": "0x4843",
+        "pid": "0x0036",
+        "device_version": "1.0.0"
+    },
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": false
+    },
+    "matrix_pins": {
+        "direct": [
+            [
+                "GP14",
+                "GP11",
+                "GP8",
+                "GP5",
+                "GP2"
+            ],
+            [
+                "GP13",
+                "GP10",
+                "GP7",
+                "GP4",
+                "GP1"
+            ],
+            [
+                "GP12",
+                "GP9",
+                "GP6",
+                "GP3",
+                "GP0"
+            ],
+            [
+                "GP27",
+                "GP26",
+                "GP15",
+                null,
+                null
+            ]
+        ]
+    },
+    "split": {
+        "enabled": true,
+        "bootmagic": {
+            "matrix": [
+                4,
+                4
+            ]
+        },
+        "matrix_pins": {
+            "right": {
+                "direct": [
+                    [
+                        "GP14",
+                        "GP11",
+                        "GP8",
+                        "GP5",
+                        "GP2"
+                    ],
+                    [
+                        "GP13",
+                        "GP10",
+                        "GP7",
+                        "GP4",
+                        "GP1"
+                    ],
+                    [
+                        "GP12",
+                        "GP9",
+                        "GP6",
+                        "GP3",
+                        "GP0"
+                    ],
+                    [
+                        "GP27",
+                        "GP26",
+                        "GP15",
+                        null,
+                        null
+                    ]
+                ]
+            }
+        }
+    },
+    "community_layouts": [
+        "split_3x5_3"
+    ],
+    "layout_aliases": {
+        "LAYOUT": "LAYOUT_split_3x5_3"
+    },
+    "layouts": {
+        "LAYOUT_split_3x5_3": {
+            "layout": [
+                {
+                    "matrix": [
+                        0,
+                        4
+                    ],
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        0,
+                        3
+                    ],
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        0,
+                        2
+                    ],
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        0,
+                        1
+                    ],
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        0,
+                        0
+                    ],
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        4,
+                        0
+                    ],
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        4,
+                        1
+                    ],
+                    "x": 8,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        4,
+                        2
+                    ],
+                    "x": 9,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        4,
+                        3
+                    ],
+                    "x": 10,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        4,
+                        4
+                    ],
+                    "x": 11,
+                    "y": 0
+                },
+                {
+                    "matrix": [
+                        1,
+                        4
+                    ],
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        1,
+                        3
+                    ],
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        1,
+                        2
+                    ],
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        1,
+                        1
+                    ],
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        1,
+                        0
+                    ],
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        5,
+                        0
+                    ],
+                    "x": 7,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        5,
+                        1
+                    ],
+                    "x": 8,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        5,
+                        2
+                    ],
+                    "x": 9,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        5,
+                        3
+                    ],
+                    "x": 10,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        5,
+                        4
+                    ],
+                    "x": 11,
+                    "y": 1
+                },
+                {
+                    "matrix": [
+                        2,
+                        4
+                    ],
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        2,
+                        3
+                    ],
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        2,
+                        2
+                    ],
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        2,
+                        1
+                    ],
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        2,
+                        0
+                    ],
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        6,
+                        0
+                    ],
+                    "x": 7,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        6,
+                        1
+                    ],
+                    "x": 8,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        6,
+                        2
+                    ],
+                    "x": 9,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        6,
+                        3
+                    ],
+                    "x": 10,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        6,
+                        4
+                    ],
+                    "x": 11,
+                    "y": 2
+                },
+                {
+                    "matrix": [
+                        3,
+                        0
+                    ],
+                    "x": 2,
+                    "y": 3.25
+                },
+                {
+                    "matrix": [
+                        3,
+                        1
+                    ],
+                    "x": 3,
+                    "y": 3.25
+                },
+                {
+                    "matrix": [
+                        3,
+                        2
+                    ],
+                    "x": 4,
+                    "y": 3.25
+                },
+                {
+                    "matrix": [
+                        7,
+                        2
+                    ],
+                    "x": 7,
+                    "y": 3.25
+                },
+                {
+                    "matrix": [
+                        7,
+                        1
+                    ],
+                    "x": 8,
+                    "y": 3.25
+                },
+                {
+                    "matrix": [
+                        7,
+                        0
+                    ],
+                    "x": 9,
+                    "y": 3.25
+                }
+            ]
+        }
+    }
+}

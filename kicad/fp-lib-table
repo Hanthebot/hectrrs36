@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "others") (type "KiCad") (uri "${KIPRJMOD}/footprints/others.pretty") (options "") (descr ""))
+	(lib (name "hectrrs36-CustomFoot") (type "KiCad") (uri "${KIPRJMOD}/hectrrs36-CustomFoot.pretty") (options "") (descr ""))
+)

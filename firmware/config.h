@@ -1,0 +1,7 @@
+#pragma once
+
+#define SPLIT_HAND_PIN GP28
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 2000
+
+#define SERIAL_USART_TX_PIN GP29
