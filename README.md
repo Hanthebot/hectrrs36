@@ -1,4 +1,5 @@
 # Hectrrs36
+![title img](./images/keyboard.jpg)
 sub 100x100 mm 36 key split keyboard with splay - and TRRS jack!
 
 ## Specs
@@ -27,5 +28,6 @@ Tips:
 
 With these being said, it could be the most accessible way to try a splayed keyboard / totem layout!
 
+![pcb kicad](./images/pcb_kicad.jpg)
 ## License
 Following the original work, all the work here is licensed under CC BY-NC-SA 4.0.
